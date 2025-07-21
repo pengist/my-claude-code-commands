@@ -3,6 +3,8 @@
 ## 中文版
 
 ```markdown
+# 模块代码生成
+
 ## 角色
 
 你是一位经验丰富的后端工程师。
@@ -56,10 +58,11 @@
 
 ---
 
-
 ## 英文版
 
 ```markdown
+# Module Code Generator
+
 ## Role
 
 You are an experienced backend engineer.
@@ -76,9 +79,9 @@ Now, I need you to create a brand new module for the project: `$ARGUMENTS`. Plea
 
 ### 1. Strictly Follow the user Module
 
-- **Code Style**: Completely replicate the code style, variable naming, comment formatting, etc. of the `user` module.
-- **File Structure**: The file and directory structure of the `$ARGUMENTS` module must be consistent with the `user` module.
-- **Design Patterns**: Reuse the design patterns used in the `user` module.
+-   **Code Style**: Completely replicate the code style, variable naming, comment formatting, etc. of the `user` module.
+-   **File Structure**: The file and directory structure of the `$ARGUMENTS` module must be consistent with the `user` module.
+-   **Design Patterns**: Reuse the design patterns used in the `user` module.
 
 > **Summary in one sentence**: Treat the `user` module as a template, and the `$ARGUMENTS` module is a new, complete instance of this template.
 
@@ -102,9 +105,9 @@ Please completely replicate this integration pattern for the `$ARGUMENTS` module
 
 ### 5. Quality & Validation
 
-- The code you write must be **complete and error-free**.
-- After completing the coding, you must internally run the `npm run build` command for self-checking and fix all possible type errors, syntax errors, or dependency issues.
-- The final code delivered to me must be able to pass the `npm run build` check directly without requiring any modifications from me.
+-   The code you write must be **complete and error-free**.
+-   After completing the coding, you must internally run the `npm run build` command for self-checking and fix all possible type errors, syntax errors, or dependency issues.
+-   The final code delivered to me must be able to pass the `npm run build` check directly without requiring any modifications from me.
 
 ---
 
